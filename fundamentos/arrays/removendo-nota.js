@@ -1,0 +1,11 @@
+const notas = [10, 6, 8, 5.5, 10];
+const notas2 = [10, 6, 8, 5.5, 10];
+notas.pop();
+
+const media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
+
+console.log(`A média é: ${media}`);
+
+notas3 = notas.concat(notas2);
+
+console.log(notas3);
