@@ -35,5 +35,3 @@ export default async function listaValidada(listaDeLinks) {
     status: status[indice],
   }));
 }
-
-//
